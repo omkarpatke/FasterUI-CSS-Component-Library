@@ -1,0 +1,14 @@
+.section{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.usage-container h1{
+    font-size: 2rem;
+}
+
+.usage-container p{
+    font-size: 1.3rem;
+}
