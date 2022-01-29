@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
@@ -14,30 +14,39 @@
     --white-color : #fff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .nav{
     display: flex;
     align-items: center;
-    height: 5rem;
+    height: 4rem;
     box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    width: 100%;
+    z-index: 1;
+    position: fixed;
 }
 
 .nav .logo{
     margin-left: 10rem;
     font-size: 2rem;
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .nav .links{
     display: flex;
     margin-left: 3rem;
-    gap: 30px;
+    gap: 45rem;
     font-size: 1.3rem;
 }
 
 .nav .links a{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .home-page-container{
@@ -51,8 +60,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row-reverse;
     gap: 100px;
-    height: 88vh;
+    height: 100vh;
 }
 
 .home-page img{
@@ -100,16 +110,18 @@
     display: grid;
     grid-template-columns: .3fr 1fr;
     grid-template-areas: 'sideBar components';
-    padding: .5rem 10rem;
+    padding: 0rem 10rem;
+    gap: 10rem;
 }
 
 .sideBar{
     grid-area: sideBar;
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    margin-top: 2rem;
+    gap: 10px;
+    margin-top: 3rem;
     position: fixed;
+    top: 4rem;
     font-size: 1.2rem;
 }
 
@@ -122,15 +134,36 @@
     text-decoration: none;
     color: var(--primary-color);
     padding-left: 10px;
+    border-radius: 6px;
+    height: max-content;
 }
 
 .sideBar a:hover{
     background-color: var(--bg-color);
-    height: max-content;
-    border-radius: 6px;
 }
 
+.sideBar a:active{
+    background-color: var(--bg-color);
+    font-weight: 600;
+}
 
 .components{
     grid-area: components;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.section{
+    padding: 7rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 90vh;
+    scroll-behavior: smooth;
+}
+
+.nextPageLink{
+    display: flex;
+    justify-content: flex-end;
 }
