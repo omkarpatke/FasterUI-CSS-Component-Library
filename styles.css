@@ -111,7 +111,7 @@ html{
     grid-template-columns: .3fr 1fr;
     grid-template-areas: 'sideBar components';
     padding: 0rem 10rem;
-    gap: 10rem;
+    gap: 13rem;
 }
 
 .sideBar{
@@ -155,11 +155,10 @@ html{
 }
 
 .section{
-    padding: 7rem 2rem;
+    padding-top: 7rem;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    min-height: 90vh;
     scroll-behavior: smooth;
 }
 
