@@ -154,12 +154,17 @@ html{
     gap: 4rem;
 }
 
+h1{
+    color: var(--primary-color);
+}
+
 .section{
-    padding-top: 7rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 10px;
     scroll-behavior: smooth;
+    min-height: 80vh;
 }
 
 .nextPageLink{

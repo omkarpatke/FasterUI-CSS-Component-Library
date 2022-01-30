@@ -19,6 +19,10 @@
     border-radius: 50%;
 }
 
+.avatars div{
+    height: max-content;
+}
+
 .avatar-xl{
     height: 4em;
 }
@@ -46,7 +50,16 @@
     font-size: 6rem;
     bottom: 2px;
     right: 1.3rem;
-    z-index: 1;
+    z-index: 0;
+}
+
+.status-avatar-paragraph{
+    margin-top: -2rem;
+}
+
+.status-avatars{
+    margin-top: -5rem;
+    margin-bottom: -3rem;
 }
 
 .online{
