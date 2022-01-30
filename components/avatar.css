@@ -1,0 +1,61 @@
+.avatars{
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+    padding: 1rem 3rem;
+    gap: 2rem;
+
+}
+
+#avatar-container p span{
+    background-color: #b3d2f5;
+    border-radius: 5px;
+    padding: .1rem;
+}
+/* standard-avatars */
+.avatar{
+    height: 6em;
+    border-radius: 50%;
+}
+
+.avatar-xl{
+    height: 4em;
+}
+
+.avatar-lg{
+    height: 3em;
+}
+
+.avatar-std{
+    height: 2em;
+}
+
+.avatar-sm{
+    height: 1.5em;
+}
+
+.avatar-xs{
+    height: 1em;
+}
+
+/* avatar-with-status */
+
+.status-presence{
+    position: relative;
+    font-size: 6rem;
+    bottom: 2px;
+    right: 1.3rem;
+    z-index: 1;
+}
+
+.online{
+    color: #32b643;
+}
+
+.offline{
+    color: red;
+}
+
+.dnd{
+    color: gray;
+}
