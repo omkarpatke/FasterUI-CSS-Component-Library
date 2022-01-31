@@ -1,0 +1,38 @@
+#badge-container p span{
+    background-color: #b3d2f5;
+    border-radius: 5px;
+    padding: .1rem;
+}
+
+.icons{
+    display: flex;
+    gap: 40px;
+    padding: 1rem 2rem;
+}
+
+.icon i{
+    font-size: 3.5rem;
+}
+
+.icon span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    width: 1rem;
+    padding: .8rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 4rem;
+    left: 2.5rem;
+}
+
+.discord-icon {
+    color: #738ADB;
+}
+
+.messanger-icon{
+    color: #006AFF;
+}
