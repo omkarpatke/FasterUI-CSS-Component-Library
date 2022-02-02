@@ -1,0 +1,20 @@
+@import url(../styles.css);
+
+.image-responsive{
+    padding: 2rem;
+}
+
+.image-responsive img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-circular{
+    padding: 2rem;
+}
+
+.image-circular img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
