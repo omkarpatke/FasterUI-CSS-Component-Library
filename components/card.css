@@ -112,19 +112,19 @@
     font-weight: 500;
 }
 
-.horizhontal-card{
+.horizontal-card{
     display: flex;
     flex-direction: row;
     width: min-content;
     padding: 1rem;
 }
 
-.horizhontal-card img{
+.horizontal-card img{
     height: 200px;
     width: 250px;
     margin-top: 1rem;
 }
 
-.horizhontal-card .card-content{
+.horizontal-card .card-content{
     flex-direction: column;
 }
