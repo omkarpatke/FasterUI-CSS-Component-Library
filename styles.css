@@ -12,6 +12,7 @@
     --hover-color: #0bf;
     --bg-color: #dddddd;
     --white-color : #fff;
+    --red-color: red;
 }
 
 html{
@@ -170,4 +171,14 @@ h1{
 .nextPageLink{
     display: flex;
     justify-content: flex-end;
+}
+
+.section h1{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.section h2{
+    font-size: 1.7rem;
+    margin: 1.5rem 1rem;
 }
