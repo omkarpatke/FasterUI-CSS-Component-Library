@@ -45,9 +45,9 @@
 }
 
 .navigation-nav-iframe{
-    width: 651px;
-    height: 335px;
+    width: 60rem;
+    height: 20rem;
     border:0;
     transform: scale(1); 
-    overflow:hidden;
+    overflow:scroll;
 }
