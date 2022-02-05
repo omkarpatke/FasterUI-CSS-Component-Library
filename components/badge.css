@@ -36,3 +36,29 @@
 .messanger-icon{
     color: #006AFF;
 }
+
+.badge-container-iframe1{
+    height: 30rem;
+    width: 50rem;
+}
+
+.badge-container-iframe2{
+    height: 28rem;
+    width: 34rem;
+}
+
+@media screen and (max-width:480px){
+    .badge-container-iframe1{
+      min-height: 35rem;
+      height: auto;
+      width: auto;
+      overflow: scroll;
+    }
+
+    .badge-container-iframe2{
+        min-height: 35rem;
+        height: auto;
+        width: auto;
+        overflow: scroll;
+      }
+  }

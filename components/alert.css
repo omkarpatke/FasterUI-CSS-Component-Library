@@ -27,3 +27,17 @@
 .info-alert{
     background-color: #cff4fc;
 }
+
+.alert-container-iframe{
+    height: 16rem;
+    width: 43rem;
+  }
+
+@media screen and (max-width:480px){
+    .alert-container-iframe{
+      min-height: 25rem;
+      height: auto;
+      width: auto;
+      overflow: scroll;
+    }
+  }

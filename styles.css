@@ -291,7 +291,7 @@ h1{
     }
 
     .nav .links{
-        margin-left: 9rem;
+        margin-left: 7rem;
     }
      
     .home-page{
@@ -304,14 +304,15 @@ h1{
     .nav{
         position: fixed;
     }
+
     .nav .bars{
         display: block;
-        margin-left: 7rem;
+        margin-left: 2rem;
         font-size: 2rem;
         margin-top: 6px;
     }
     .nav .logo{
-        margin-left: 1rem;
+        margin-left: 12rem;
     }
 
     .nav .github-link{
@@ -319,7 +320,11 @@ h1{
     }
 
     .nav .links{
-        margin-left: 9rem;
+        margin-left: 6rem;
+    }
+
+    .home-page img{
+        height: 14rem;
     }
      
     .home-page{
