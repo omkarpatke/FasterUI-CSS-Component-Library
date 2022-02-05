@@ -44,6 +44,10 @@ html{
     font-size: 1.3rem;
 }
 
+.nav .bars{
+    display: none;
+}
+
 .nav .links a{
     text-decoration: none;
     color: var(--white-color);
@@ -107,15 +111,11 @@ html{
 /* component page */
 
 .components-container{
-    display: grid;
-    grid-template-columns: .3fr 1fr;
-    grid-template-areas: 'sideBar components';
-    padding: 0rem 10rem;
-    gap: 13rem;
+    display: flex;
+    padding: 0 10rem;
 }
 
 .sideBar{
-    grid-area: sideBar;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -123,6 +123,7 @@ html{
     position: fixed;
     top: 4rem;
     font-size: 1.2rem;
+    width: 12rem;
 }
 
 .sideBar div{
@@ -148,10 +149,11 @@ html{
 }
 
 .components{
-    grid-area: components;
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    margin-left: 12rem;
+    width: 100%;
 }
 
 h1{
@@ -167,7 +169,179 @@ h1{
     min-height: 80vh;
 }
 
-.nextPageLink{
-    display: flex;
-    justify-content: flex-end;
+.github-link{
+    display: block;
+}
+
+@media screen and (max-width:1285px){
+    .nav .logo{
+        margin-left: 2rem;
+    }
+
+    .nav .links{
+        margin-left: 5rem;
+        gap: 41rem;
+    }
+
+    .home-page-container{
+        padding: 0 2rem;
+    }
+
+    /* components page */
+
+    .components-container{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width:1120px){
+    .nav .links{
+        margin-left: 5rem;
+        gap: 35rem;
+    }
+
+    .home-page{
+        gap: 0;
+    }
+
+    .home-page img{
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .nav .links{
+        margin-left: 5rem;
+        gap: 25rem;
+    }
+
+    .home-page img{
+        height: 20rem;
+    }
+
+    .content h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:872px){
+    .nav .links{
+        margin-left: 3rem;
+        gap: 18rem;
+    }
+
+    .home-page img{
+        height: 19rem;
+    }
+
+    .content h2{
+        font-size: 2.3rem;
+    }
+
+    .content p{
+        font-size: 1.1rem;
+    }
+
+    .content a{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:730px){
+    .nav .links{
+        margin-left: 2rem;
+        gap: 13rem;
+    }
+
+    .home-page img{
+        height: 16rem;
+    }
+
+    .content h2{
+        font-size: 2.2rem;
+    }
+
+    .content p{
+        font-size: 1.1rem;
+    }
+
+    .content a{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:630px){
+    .nav .links{
+        margin-left: 2rem;
+        gap: 8rem;
+    }
+
+    .home-page img{
+        height: 15rem;
+    }
+
+    .content h2{
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    .github-link{
+        display: none;
+    }
+
+    .nav .links{
+        margin-left: 9rem;
+    }
+     
+    .home-page{
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .nav{
+        position: fixed;
+    }
+    .nav .bars{
+        display: block;
+        margin-left: 7rem;
+        font-size: 2rem;
+        margin-top: 6px;
+    }
+    .nav .logo{
+        margin-left: 1rem;
+    }
+
+    .nav .github-link{
+        display: none;
+    }
+
+    .nav .links{
+        margin-left: 9rem;
+    }
+     
+    .home-page{
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .sideBar{
+        display: none;
+    }
+
+    .components-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .components{
+        margin: 0 1rem;
+    }
+    
+    .home-link{
+        display: none;
+    }
+
 }
