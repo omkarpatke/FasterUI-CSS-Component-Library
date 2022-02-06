@@ -1,0 +1,38 @@
+@import url('../styles.css');
+
+.headings-container ,.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid var(--primary-color);
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.headings-container .heading{
+    font-size: 2rem;
+    color: black;
+}
+
+.pragraph-container{
+    border: 2px solid var(--primary-color);
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.text-left{
+    text-align: start;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: end;
+}
