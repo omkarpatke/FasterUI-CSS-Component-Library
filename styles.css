@@ -173,6 +173,10 @@ h1{
     display: block;
 }
 
+.hidden{
+    display: none;
+}
+
 @media screen and (max-width:1285px){
     .nav .logo{
         margin-left: 2rem;
@@ -312,7 +316,7 @@ h1{
         margin-top: 6px;
     }
     .nav .logo{
-        margin-left: 12rem;
+        margin-left: 14rem;
     }
 
     .nav .github-link{
@@ -332,8 +336,25 @@ h1{
         margin-top: 5rem;
     }
 
-    .sideBar{
-        display: none;
+    .sideBar {
+        z-index: 2;
+        background-color: var(--primary-color);
+        align-items: flex-start;
+        width: 50%;
+        top: 1rem;
+        gap: 15px;
+        height: 100%;
+        padding: 2rem 1.5rem;
+        box-shadow: 2px 0 10px 4px rgba(0,0,0,0.1) ;
+        transition: .5s all ease-in-out;
+    }
+
+    .sideBar a{
+        color: var(--white-color);
+    }
+
+    .sideBar div{
+        color: var(--white-color);
     }
 
     .components-container{
@@ -347,6 +368,11 @@ h1{
     
     .home-link{
         display: none;
+    }
+
+    .close-btn{
+        font-size: 2rem;
+        margin-left: 2rem;
     }
 
 }
