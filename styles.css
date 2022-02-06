@@ -35,6 +35,7 @@ html{
     font-size: 2rem;
     font-weight: 600;
     color: var(--white-color);
+    text-decoration: none;
 }
 
 .nav .links{
