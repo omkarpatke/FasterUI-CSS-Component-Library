@@ -346,7 +346,8 @@ h1{
         height: 100%;
         padding: 2rem 1.5rem;
         box-shadow: 2px 0 10px 4px rgba(0,0,0,0.1) ;
-        transition: .5s all ease-in-out;
+        transition: left .3s ease-in;
+        transition: right .3s ease-in;
     }
 
     .sideBar a{
