@@ -9,10 +9,15 @@
 
 :root{
     --primary-color: #1a406b;
-    --hover-color: #0bf;
+    --dark-primary-color:#19375a;
     --bg-color: #dddddd;
     --white-color : #fff;
+
     --span-bg-color : #b3d2f5;
+
+    --hover-color : #b3d2f5;
+    --label-color: #E67A00;
+
 }
 
 html{
@@ -27,7 +32,7 @@ html{
     background-color: var(--primary-color);
     color: var(--white-color);
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     position: fixed;
 }
 
@@ -62,7 +67,10 @@ html{
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
+
     gap: 6.4rem;
+    gap: 6.2rem;
+
     height: 100vh;
 }
 
@@ -140,11 +148,11 @@ html{
 }
 
 .sideBar a:hover{
-    background-color: var(--bg-color);
+    background-color: var(--hover-color);
+    font-weight: 600;
 }
 
 .sideBar a:active{
-    background-color: var(--bg-color);
     font-weight: 600;
 }
 
@@ -157,6 +165,7 @@ html{
 
 h1{
     color: var(--primary-color);
+    font-size: 2rem;
 }
 
 .section{
