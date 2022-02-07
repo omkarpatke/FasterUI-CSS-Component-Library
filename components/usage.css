@@ -6,3 +6,11 @@
 .usage-container p{
     font-size: 1.2rem;
 }
+
+.usage-iframe{
+    width: 866px; 
+    height: 316px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}

@@ -5,19 +5,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
 }
 
 :root{
     --primary-color: #1a406b;
-    --hover-color: #0bf;
+    --dark-primary-color:#19375a;
     --bg-color: #dddddd;
     --white-color : #fff;
+
     --lite-bg-color: #8dc0fa; 
     --pink-color: #BD5D78;
     --extra-orange-color: #EF836D;
     --complimentary-blue-color: #1AB3B3;
     --teal: #008080;
     --dark-blue-color: #333258;
+
+    --danger-color: red;
+    --dark-danger-color:#d42f2f;
+    --span-bg-color : #b3d2f5;
+    --hover-color : #b3d2f5;
+    --label-color: #E67A00;
+    --outline-color : #00b594;
+
 }
 
 html{
@@ -32,7 +42,7 @@ html{
     background-color: var(--primary-color);
     color: var(--white-color);
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     position: fixed;
 }
 
@@ -67,7 +77,10 @@ html{
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
-    gap: 100px;
+
+    gap: 6.4rem;
+    gap: 6.2rem;
+
     height: 100vh;
 }
 
@@ -78,7 +91,7 @@ html{
 .content{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.2rem;
 }
 
 .content h2{
@@ -99,7 +112,7 @@ html{
     padding: 1rem;
     text-decoration: none;
     border: 2px solid var(--primary-color);
-    border-radius: 10px;
+    border-radius: .6rem;
     color: var(--white-color);
     background-color: var(--primary-color);
     font-weight: 500;
@@ -124,7 +137,7 @@ html{
     grid-area: sideBar;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: .6rem;
     margin-top: 3rem;
     position: fixed;
     top: 4rem;
@@ -139,17 +152,17 @@ html{
 .sideBar a{
     text-decoration: none;
     color: var(--primary-color);
-    padding-left: 10px;
-    border-radius: 6px;
+    padding-left: .6rem;
+    border-radius: .4rem;
     height: max-content;
 }
 
 .sideBar a:hover{
-    background-color: var(--bg-color);
+    background-color: var(--hover-color);
+    font-weight: 600;
 }
 
 .sideBar a:active{
-    background-color: var(--bg-color);
     font-weight: 600;
 }
 
@@ -162,6 +175,7 @@ html{
 
 h1{
     color: var(--primary-color);
+    font-size: 2rem;
 }
 
 .section{
@@ -176,4 +190,27 @@ h1{
 .nextPageLink{
     display: flex;
     justify-content: flex-end;
+}
+
+
+.section h1{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.section h2{
+    font-size: 1.7rem;
+}
+
+.section-para{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.section p span{
+    background-color: var(--span-bg-color);
+    border-radius: 5px;
+    padding: 0.1rem;
 }
