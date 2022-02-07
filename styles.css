@@ -13,16 +13,12 @@
     --dark-primary-color:#19375a;
     --bg-color: #dddddd;
     --white-color : #fff;
-
     --danger-color: red;
-
-
+    --dark-danger-color:#d42f2f;
     --span-bg-color : #b3d2f5;
-
     --hover-color : #b3d2f5;
     --label-color: #E67A00;
-
-
+    --outline-color : #00b594;
 }
 
 html{
@@ -204,7 +200,7 @@ h1{
     gap: 10px 10px;
 }
 
-.section .section-para span{
+.section p span{
     background-color: var(--span-bg-color);
     border-radius: 5px;
     padding: 0.1rem;
