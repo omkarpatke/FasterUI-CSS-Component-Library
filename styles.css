@@ -14,14 +14,19 @@
     --bg-color: #dddddd;
     --white-color : #fff;
 
+    --lite-bg-color: #8dc0fa; 
+    --pink-color: #BD5D78;
+    --extra-orange-color: #EF836D;
+    --complimentary-blue-color: #1AB3B3;
+    --teal: #008080;
+    --dark-blue-color: #333258;
+
     --danger-color: red;
-
-
+    --dark-danger-color:#d42f2f;
     --span-bg-color : #b3d2f5;
-
     --hover-color : #b3d2f5;
     --label-color: #E67A00;
-
+    --outline-color : #00b594;
 
 }
 
@@ -195,6 +200,14 @@ h1{
 
 .section h2{
     font-size: 1.7rem;
+}
+
+.section-para{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+
 }
 
 .section p span{

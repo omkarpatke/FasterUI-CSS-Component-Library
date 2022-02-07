@@ -10,6 +10,7 @@
     padding: 1rem 4rem;
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
+    margin: 1rem 3rem;
 }
 
 .inputs .input-field{
@@ -28,6 +29,7 @@
     padding: 1rem 4rem;
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
+    margin: 1rem 3rem;
 }
 
 .input-with-error .err-input{
@@ -40,7 +42,7 @@
 
 .input-with-error .err-msg{
     color: var(--danger-color);
-    margin-right: 27rem;
+    margin-right: 20rem;
     font-size: 0.8rem;
 }
 
@@ -54,6 +56,7 @@
     padding: 1rem 4rem;
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
+    margin: 1rem 3rem;
 }
 
 .radio-inputs .radio-input{
@@ -63,7 +66,7 @@
     gap: .3rem;
 }
 
-.input-checkbox{
+.checkbox-inputs{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +76,7 @@
     padding: 1rem 4rem;
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
+    margin: 1rem 3rem;
 }
 
 .checkbox-inputs .checkbox-input{

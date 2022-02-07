@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     border: 2px solid var(--primary-color);
-    padding: 2rem;
+    padding: 2rem 10rem;
     margin: 1rem 0;
     border-radius: 10px;
     gap: 1rem;
@@ -19,7 +19,7 @@
 
 .pragraph-container{
     border: 2px solid var(--primary-color);
-    padding: 2rem;
+    padding: 2rem 2rem;
     margin: 1rem 0;
     border-radius: 10px;
     gap: 1rem;
