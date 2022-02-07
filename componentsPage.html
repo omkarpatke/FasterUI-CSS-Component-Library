@@ -629,13 +629,13 @@
             <br>
             <br>
             <h2>Modal Example</h2>
-            <div class="modalContainer">
-                <button onclick="showModal()" class="btn primary-btn">Show Modal</button>
+            <div class="modals-container">
+                <button class="show-btn btn primary-btn">Show Modal</button>
             </div>
 
             <div class="modal-content">
                 <div class="modal">
-                    <button onclick="closeModal()" class="close-btn dismiss-btn">X</button>
+                    <button class="close-btn dismiss-btn">X</button>
                     <div class="modal-heading">Modal Header</div>
                     <div class="modal-text">Modal Text</div>
                     <div class="modal-btns">
@@ -664,17 +664,19 @@
 
         // Modal Component
         const modal = document.querySelector('.modal')
+        const closeBtn = document.querySelector('.close-btn')
+        const showBtn = document.querySelector('.show-btn')
         const modalContent = document.querySelector('.modal-content');
         const modalBtns = document.querySelectorAll('.modal-btns');
-        const showModal = () => {
+        showBtn.addEventListener('click', () => {
             modal.style.display='block';
             modalContent.style.display = 'block';
-        }
+        })
 
-        const closeModal = () => {
+        closeBtn.addEventListener('click' , () => {
             modal.style.display='none';
             modalContent.style.display = 'none';
-        }
+        })
 
         modalBtns.forEach((btn) => {
             btn.addEventListener('click' , () => {
