@@ -44,6 +44,7 @@ html{
     width: 100%;
     z-index: 2;
     position: fixed;
+    top: 0;
 }
 
 .nav .logo{
@@ -126,15 +127,17 @@ html{
 /* component page */
 
 .components-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: .3fr 1fr;
     grid-template-areas: 'sideBar components';
     padding: 0rem 10rem;
-    gap: 13rem;
+    gap: 13rem; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 10rem;
 }
 
 .sideBar{
-    grid-area: sideBar;
     display: flex;
     flex-direction: column;
     gap: .6rem;
@@ -142,6 +145,7 @@ html{
     position: fixed;
     top: 4rem;
     font-size: 1.2rem;
+    overflow: scroll;
 }
 
 .sideBar div{
@@ -170,7 +174,7 @@ html{
     grid-area: components;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    margin-left: 14rem;
 }
 
 h1{
@@ -214,4 +218,69 @@ h1{
     background-color: var(--span-bg-color);
     border-radius: 5px;
     padding: 0.1rem;
+}
+
+.nav-close-btn{
+    color: var(--white-color);
+    margin-left: 2rem;
+}
+
+.navBars{
+    color: var(--white-color);
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+ @media screen and (max-width:480px) {
+
+    /* homePage */
+    .nav .logo{
+        margin-left: 4rem;
+    }
+    .home-page{
+        flex-direction: column;
+    }
+
+    .home-page img{
+        height: 17rem;
+        margin-top: 25rem;
+    }
+
+    .home-page-container{
+        margin: 1rem 3rem;
+    }
+
+    /* DocumentationPage */
+
+    .components-container{
+        margin: 2rem 0;
+    }
+
+    .sideBar{
+        display: flex;
+        flex-direction: column;
+        z-index: 3;
+        background-color: var(--primary-color);
+        width: 30%;
+        color: var(--white-color);
+        padding: 2rem 2rem;
+        top: 0;
+    }
+
+    .sideBar div{
+        color: var(--white-color);
+    }
+
+    .sideBar a{
+        color: var(--white-color);
+    }
+
+    .components{
+        margin: 2rem;
+    }
+
+    .components section{
+        width: 100%;
+        margin-top: -3rem
+    }
 }
