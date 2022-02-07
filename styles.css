@@ -197,7 +197,14 @@ h1{
     font-size: 1.7rem;
 }
 
-.section p span{
+.section-para{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.section .section-para span{
     background-color: var(--span-bg-color);
     border-radius: 5px;
     padding: 0.1rem;

@@ -36,3 +36,19 @@
 .messanger-icon{
     color: #006AFF;
 }
+
+.status-avatar-iframe{
+    width: 1024px; 
+    height: 502px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.icon-badge-iframe{
+    width: 538px; 
+    height: 447px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}

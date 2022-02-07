@@ -27,3 +27,11 @@
 .info-alert{
     background-color: #cff4fc;
 }
+
+.alert-iframe{
+    width: 673px; 
+    height: 261px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
