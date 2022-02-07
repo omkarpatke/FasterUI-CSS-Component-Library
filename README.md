@@ -59,7 +59,7 @@
 ## How to Use this Component Library
 - Copy Paste the fontawesome and fasterUI links
   - fasterUI components.css  -> <br /> ```<link rel="stylesheet" href="https://fasterui.netlify.app/components/components.css">``` <br />
-  - - Font Awesome CDN        -> <br /> ```<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">``` <br />
+  - - line Icon CDN        -> <br /> ```<link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">``` <br />
 - Copy HTML of the component that you want to use in your project
 - And you are done! fasterUI Components will be available in your project! :sunglasses: 🥳
 
