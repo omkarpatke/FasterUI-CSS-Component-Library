@@ -235,19 +235,19 @@ h1{
 
     /* homePage */
     .nav .logo{
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
     .home-page{
         flex-direction: column;
     }
 
     .home-page img{
-        height: 17rem;
-        margin-top: 25rem;
+        height: 12rem;
+        margin-top: 15rem;
     }
 
-    .home-page-container{
-        margin: 1rem 3rem;
+    .content h2{
+        font-size: 2rem;
     }
 
     /* DocumentationPage */
