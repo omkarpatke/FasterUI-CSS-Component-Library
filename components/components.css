@@ -9,4 +9,10 @@
 @import url('./input.css');
 @import url('./list.css');
 @import url('./navigation.css');
+
+@import url('./simplifiedGrid.css');
+
 @import url('./toast.css');
+@import url('./textUtilities.css');
+@import url('./modal.css');
+

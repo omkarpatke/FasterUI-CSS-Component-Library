@@ -1,0 +1,88 @@
+@import url('../styles.css');
+
+.inputs{
+    display:flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.inputs .input-field{
+    width: 70%;
+    height: 2rem;
+    padding-left: 1rem;
+    border-radius: .3rem;
+}
+
+.input-with-error{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.input-with-error .err-input{
+    width: 70%;
+    height: 2rem;
+    padding-left: 1rem;
+    border-radius: .3rem;
+    border: 1px solid var(--danger-color);
+}
+
+.input-with-error .err-msg{
+    color: var(--danger-color);
+    margin-right: 20rem;
+    font-size: 0.8rem;
+}
+
+.radio-inputs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.radio-inputs .radio-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+
+.checkbox-inputs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+    justify-content: center;
+    height: max-content;
+    padding: 1rem 4rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+.checkbox-inputs .checkbox-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+

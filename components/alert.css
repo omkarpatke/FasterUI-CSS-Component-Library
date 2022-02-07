@@ -28,6 +28,7 @@
     background-color: #cff4fc;
 }
 
+
 .alert-container-iframe{
     height: 16rem;
     width: 43rem;
@@ -41,3 +42,12 @@
       overflow: scroll;
     }
   }
+
+.alert-iframe{
+    width: 673px; 
+    height: 261px; 
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
