@@ -207,6 +207,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 10px 10px;
+
 }
 
 .section p span{

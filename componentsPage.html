@@ -675,7 +675,33 @@
            </section>
 
            <section class="section" id="modal-container">
-            modal Will Come Here...
+            <h1>Modal</h1>
+            <p>Modals are pop-ups that are used to show important information to the user. <br>
+            Modals are different from Dialog Box as the user can't continue work on site until user responds to the Modal. <br>
+            While in case of Dialog Box, user can continue working on site without necessarily interacting with it.</p>
+            <br>
+            <br>
+            <h2>Modal Example</h2>
+            <div class="modals-container">
+                <button class="show-btn btn primary-btn">Show Modal</button>
+            </div>
+
+            <div class="modal-content">
+                <div class="modal">
+                    <button class="close-btn dismiss-btn">X</button>
+                    <div class="modal-heading">Modal Header</div>
+                    <div class="modal-text">Modal Text</div>
+                    <div class="modal-btns">
+                       <button class="btn primary-btn">Modal Action 1</button>
+                       <button class="btn secondary-btn">Modal Action 2</button>
+                    </div>
+                </div>
+            </div>
+
+            <iframe class="modal-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=button%2520onclick%253D%2522showModal%28%29%2522%2520class%253D%2522btn%2520primary-btn%2522%253EShow%2520Modal%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520onclick%253D%2522closeModal%28%29%2522%2520class%253D%2522close-btn%2520dismiss-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-heading%2522%253EModal%2520Header%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-text%2522%253EModal%2520Text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EModal%2520Action%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253EModal%2520Action%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
            </section>
 
            <section class="section" id="simplified-grid-container">
@@ -756,5 +782,31 @@
            </section>
         </div>
     </div>
+
+    <script>
+
+        // Modal Component
+        const modal = document.querySelector('.modal')
+        const closeBtn = document.querySelector('.close-btn')
+        const showBtn = document.querySelector('.show-btn')
+        const modalContent = document.querySelector('.modal-content');
+        const modalBtns = document.querySelectorAll('.modal-btns');
+        showBtn.addEventListener('click', () => {
+            modal.style.display='block';
+            modalContent.style.display = 'block';
+        })
+
+        closeBtn.addEventListener('click' , () => {
+            modal.style.display='none';
+            modalContent.style.display = 'none';
+        })
+
+        modalBtns.forEach((btn) => {
+            btn.addEventListener('click' , () => {
+                modal.style.display='none';
+                modalContent.style.display = 'none';
+            })
+        })
+    </script>
 </body>
 </html>  
