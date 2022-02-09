@@ -24,6 +24,7 @@
     font-size: 2rem;
     font-weight: 600;
     cursor: pointer;
+    color: var(--white-color);
 }
 
 .links{
