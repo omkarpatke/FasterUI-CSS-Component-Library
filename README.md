@@ -65,5 +65,7 @@
 - And you are done! fasterUI Components will be available in your project! :sunglasses: 🥳
 
 ## Screenshots
-![]() <br /><br />
+![](https://raw.githubusercontent.com/omkarpatke/FasterUI-CSS-Component-Library/main/images/fasterUI-homePage.png) <br /><br /><br /><br />
+![](https://raw.githubusercontent.com/omkarpatke/FasterUI-CSS-Component-Library/main/images/fasterUI-AvatarPage.png) <br /><br /><br /><br />
+![](https://raw.githubusercontent.com/omkarpatke/FasterUI-CSS-Component-Library/main/images/fasterUI-componentPage.png) <br /><br /><br /><br />
 
