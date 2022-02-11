@@ -1,6 +1,6 @@
 @import url('../styles.css');
 
-.navbar-container{
+.navigation-navbar-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     margin: 2rem 0;
 }
 
-.navbar{
+.navigation-navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
