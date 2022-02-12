@@ -20,28 +20,28 @@
     color: var(--white-color);
 }
 
-.logo{
+.navigation-logo{
     font-size: 2rem;
     font-weight: 600;
     cursor: pointer;
     color: var(--white-color);
 }
 
-.links{
+.navigation-links{
     display: flex;
     align-items: center;
     list-style: none;
     gap: 0 2rem;
 }
 
-.link{
+.navigation-link{
     text-decoration: none;
     color: var(--white-color);
     font-size: 1.3rem;
     cursor: pointer;
 }
 
-.link:hover{
+.navigation-link:hover{
     color: red;
 }
 

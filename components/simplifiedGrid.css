@@ -100,7 +100,7 @@
     background-color: var(--complimentary-blue-color);
 }
 
-.footer{
+.grid-footer{
     grid-area: footer;
     background-color: var(--teal);
 }
